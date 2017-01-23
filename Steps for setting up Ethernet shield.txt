@@ -1,0 +1,10 @@
+If the Ethernet Board is not working, then:
+	1.Reset the ARDUINO BOARD.
+	2.Reset the ETHERNET BOARD.
+	3.Uncheck Sharing option under WIFI Properties.
+	4.Check the sharing option back.
+	5.Disable WIFI.
+	6.Enable WIFI.
+	7.Disable Ethernet.
+	8.Enable Ethernet.
+	9.Run IP Address Printer. (Should print out a valid address)
