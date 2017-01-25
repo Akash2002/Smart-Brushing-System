@@ -184,14 +184,15 @@ display: block;
 </div>
 </div>
 </div>
+<div id = "container" class="container">
 <div class="container">
   <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-10 col-xs-12">
     <img src="IoT2.png" width=300px height=200px/>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-10 col-xs-12">
-         <h2> <a href = "https://youtu.be/NMVVKpt7PHo"> Led Wifi Control </a> </h4>
-         <h4 class="lead">   Brushing our teeth is an important part of our lives.
+         <h2> Calculate your Brushing Time?</h4>
+         <h4 class="lead"> Brushing our teeth is an important part of our lives.
   But, are you brushing for the right amount of time?
   In order to check on that, I have created an IoT solution
   to count the seconds the user has brushed. Statistical data graphs and

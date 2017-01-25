@@ -5,11 +5,16 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script></head>
+<body>
+
+<div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-secondary"><a href = "http://localhost:8080/mainpage.php">Home</a></button>
+  <button type="button" class="btn btn-secondary"><a href = "http://localhost:8080/bargraph.php"> Data Graph</a></button>
+</div>
 <?php include 'connection.php';
 $sql = "SELECT datetime, seconds FROM techfairtable";
 $result = $conn->query($sql);
 echo '<table class = "table"</table>';
-echo '<thead> Table </thead>';
 echo '<tr>';
 echo '<th> Date </th>';
 echo '<th> Time </th>';
@@ -31,5 +36,4 @@ while($row = $result->fetch_assoc()) {
 $conn->close();
 ?>
 </body>
-
 </html>

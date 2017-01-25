@@ -8,7 +8,7 @@ bool takenout = false;
 bool broughtback = false;
 int seconds;
 int counter;
-char server[] = "192.168.137.1";
+char server[] = "54.213.177.63";
 long distance1, duration1; 
 
 EthernetClient client;
